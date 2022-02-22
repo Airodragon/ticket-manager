@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jira Ticker Manager</title>
+    <script src="https://use.fontawesome.com/a820f4c3f7.js"></script>
+    <link rel="stylesheet" href="./css/toolbox.css">
+</head>
+
+<body>
+    <!-- TOOLBOX -->
+    <div class="toolbox-cont">
+        <div class="toolbox-priority-cont">
+            <div class="lightpink color"></div>
+            <div class="lightblue color"></div>
+            <div class="lightgreen color"></div>
+            <div class="black color"></div>
+        </div>
+        <div class="action-btn-cont">
+            <div class="add-btn">
+                <i class="fa fa-plus"></i>
+            </div>
+            <div class="remove-btn">
+                <i class="fa fa-times" id="btn-remove"></i>
+            </div>
+        </div>
+    </div>
+    <!-- MAIN CONTAINER -->
+    <div class="main-cont">
+                
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal-cont">
+        <textarea class="textarea-cont" spellcheck="false" placeholder="Enter your note... "></textarea>
+        <div class="priority-color-cont">
+            <div class="priority-color lightpink"></div>
+            <div class="priority-color lightblue"></div>
+            <div class="priority-color lightgreen"></div>
+            <div class="priority-color black active"></div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
